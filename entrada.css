@@ -16,7 +16,7 @@ font-weight: bold;
 table, #modulos
 {
 height: 10%;
-width: 100%;
+width: 600px;
 vertical-align: middle;
 text-align: center;
 margin: auto auto auto auto;
@@ -31,28 +31,30 @@ table #modulos, a
 display:block;
 text-decoration: none;
 color: black;
+margin-left: auto;
 }
 table, #modulos, td
 {
-width:50%;
-border: 1px dotted black;
+/* border: 1px dotted black; */
 font-size: 12pt;
 line-height: 1.5cm;
 font-weight: bold;
+min-width:200px;
 text-decoration: none;
 }
 .middle-cell{
 display:table-cell; 
 vertical-align:middle;
 height:100%;
-width:100%;
 }
 .middle {
 display:table; 
 overflow: hidden;
 vertical-align:middle;
+margin-left:auto;
+margin-right:auto;
 height:100%;
-width:100%;
+width:80%;
 }
 body
 {
@@ -62,8 +64,8 @@ background-color: grey;
 {
 margin:auto auto;
 width: 50%;
-margin-top:75px;
+margin-top:160px;
 vertical-align: middle;
-height: 70%;
+height: 30%;
 background-color: white;
 }
