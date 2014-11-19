@@ -1,0 +1,69 @@
+#head
+{
+background-image: url(head.png);
+height:75px;
+vertical-align: middle;
+line-height: 75px;
+text-indent: 5px;
+}
+.head-text
+{
+display:inline-block; 
+vertical-align:middle;
+font-size: 28pt;
+font-weight: bold;
+}
+table, #modulos
+{
+height: 10%;
+width: 100%;
+vertical-align: middle;
+text-align: center;
+margin: auto auto auto auto;
+}
+img
+{
+position: middle;
+width: 50px;
+}
+table #modulos, a
+{
+display:block;
+text-decoration: none;
+color: black;
+}
+table, #modulos, td
+{
+width:50%;
+border: 1px dotted black;
+font-size: 12pt;
+line-height: 1.5cm;
+font-weight: bold;
+text-decoration: none;
+}
+.middle-cell{
+display:table-cell; 
+vertical-align:middle;
+height:100%;
+width:100%;
+}
+.middle {
+display:table; 
+overflow: hidden;
+vertical-align:middle;
+height:100%;
+width:100%;
+}
+body
+{
+background-color: grey;
+}
+.center-white-square
+{
+margin:auto auto;
+width: 50%;
+margin-top:75px;
+vertical-align: middle;
+height: 70%;
+background-color: white;
+}

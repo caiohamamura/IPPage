@@ -1,0 +1,4 @@
+Cadastro UI + mapa temático - Shape: tipos de UI
+area de iluminacao - Shape - 3 quadras - faixa de iluminacao
+
+ Índice de queima - DataMining: pontos a serem observados

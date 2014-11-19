@@ -1,0 +1,30 @@
+#home
+{
+padding-top: 40%;
+float: center;
+text-align: center;
+}
+#entrada
+{
+font-size: 50px;
+color: #555555;
+text-decoration: none;
+}
+#form
+{
+width: 50%;
+float: left;
+}
+#map
+{
+width: 50%;
+margin-left: 50%;
+}
+body
+{
+background-image: url(home.png);
+background-color: #000000;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+}
