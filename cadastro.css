@@ -1,0 +1,116 @@
+div, .left-cell{
+display:table-cell; 
+width: 50%;
+height:100%;
+}
+div, .right-cell{
+display:table-cell; 
+width: 500px;
+height:800px;
+}
+div, .table {
+display:table; 
+overflow: hidden;
+vertical-align:top;
+margin-left:0;
+margin-right:0;
+height:100%;
+width:100%;
+}
+
+
+ .form{ 
+    border-width: 2px; 
+    border-color: #CCCCCC; 
+    border-radius: 4px; 
+    border-style: solid; 
+    color: #222222; 
+    font-size: 14px; 
+    background-color: #FFFFFF; 
+} 
+
+#form, div
+{
+    display: block;
+    margin-left: 10px;
+    margin-right: 0px;
+    max-width: 95%;
+}
+.form label{ 
+    color: #222222; 
+    font-size: 14px; 
+    display: block; 
+} 
+.form input[type=radio], input[type=checkbox]{ 
+    margin: auto; 
+    width: 100%; 
+} 
+
+.form input, form textarea, form select{ 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #666666; 
+    border-radius: 0px; 
+    padding: 3px; 
+    width: 100%; 
+} 
+.form h1{ 
+    font-size: 30px; 
+    color: #607A75; 
+    padding: 0px; 
+    margin: 0px; 
+    margin-bottom: 5px; 
+    border-bottom-style: dotted; 
+    border-bottom-color: #CCCCCC; 
+    border-bottom-width: 2px; 
+    border-radius: 0px; 
+    background-color: #FFFFFF; 
+} 
+.form h2{
+border-bottom: 1px dashed gray;
+    margin-top: 10px; 
+    margin-bottom: 5px; 
+} 
+.clear{ 
+    /* clear: both; */ 
+} 
+.form textarea{ 
+    height: 50px; 
+    width: 100%; 
+} 
+.form input[type=submit]{ 
+    width: 100%; 
+    background-color: #CCCCCC; 
+    color: #222222; 
+} 
+.field{ 
+    margin-bottom: auto;
+    margin-right:0;
+   }
+   .section{
+   display:table; 
+overflow: hidden;
+vertical-align:top;
+margin-left:0;
+margin-right:0;
+height:100%;
+width:100%;
+line-height: 20px;
+}
+.field1{
+    display:table-cell; 
+    width: 50%;
+    height:100%;
+    margin: auto;
+    padding-right: 10px;
+} 
+.field2{ 
+    display:table-cell; 
+    width: 50%;
+    height:100%; 
+    padding-left:10px;
+} 
+
+html {height:100%}
+body {height:100%;margin:0;padding:0}
+#googleMap {height:100%}

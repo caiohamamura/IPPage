@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js">
+</script>
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("map")
+  ,mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<link rel="stylesheet" type="text/css" href="cadastro.css">
+<body>
+<div class="table">
+<div class="left-cell">
+<form id="form" class="form" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+    <h1>Cadastro Unidade de Iluminação (UI)</h1>
+    <div class="content">
+        <h2 class="section">Dados da UI</h2>
+        <div id="section1" class="section">
+            <div class="field1"><label for="TipoLampada">Tipo da Lampada</label><select id="TipoLampada" name="TipoLampada"><option value="F">Fluorescente</option><option value="H">Halógena</option><option value="I">Incandescente</option><option value="M">Mista</option><option value="VM">VM</option><option value="VSAP">VSAP</option></select>
+            <label for="PotnciadaLmpada">Potência da Lâmpada</label><input type="number" id="PotnciadaLmpada" name="PotnciadaLmpada">
+            <label for="Reator">Reator</label><input type="text" id="Reator" name="Reator"></div>
+            <div class="field2"><label for="Brao">Braço</label><select id="Brao" name="Brao" required><option value="C">Curto</option><option value="M">Médio</option><option value="L">Longo</option><option value="V">Viela</option></select>
+            <label for="Luminaria">Luminária</label><select id="Luminaria" name="Luminaria"><option value="0">Fechada</option><option value="1">Integrada</option></select>
+            <label for="ReleFotocelula">Relê fotocélula</label><input type="checkbox" value="ReleFotocelula" id="ReleFotocelula" name="ReleFotocelula"></div>
+            
+        </div>
+        <h2 class="section">Localização</h2>
+        <div id="section2" class="section" >
+            <div class="field1"><label for="CoordenadaX">Coordenada X</label><input type="number" id="CoordenadaX" name="CoordenadaX">
+            <label for="CoordenadaY">Coordenada Y</label><input type="number" id="CoordenadaY" name="CoordenadaY">
+            <label for="UF">UF</label><select id="UF" name="UF"><option value="SP">SP</option><option value="AC">AC</option></select></div>
+            <div class="field2"><label for="Cidade">Cidade</label><select id="Cidade" name="Cidade"><option value="Cidade">Cidade</option><option value="Cidade1">Cidade1</option></select>
+            <label for="Logradouro">Logradouro</label><input type="text" id="Logradouro" name="Logradouro">
+            <label for="Complemento">Complemento</label><input type="text" id="Complemento" name="Complemento"></div>
+        </div>
+        <h2 class="section">Substituição</h2>
+        <div id="section3" class="section" >
+            <div class="field1"><label for="DataRecenceamento">Data Recenceamento</label><input type="date" id="DataRecenceamento" name="DataRecenceamento">
+            <label for="DataValidao">Data Validação</label><input type="date" id="DataValidao" name="DataValidao"></div>
+            <div class="field2"><label for="Vidatilanos">Vida útil (anos)</label><input type="number" id="Vidatilanos" name="Vidatilanos"></div>
+        </div>
+        <h2 class="section">Dados da Via</h2>
+        <div id="section4" class="section" >
+            <div class="field1"><label for="TipodeVia">Tipo de Via</label><select id="TipodeVia" name="TipodeVia"><option value="A1">Arterial</option><option value="A2">Coletora</option><option value="A3">Local</option><option value="B">Ligação</option><option value="C1">Principal</option><option value="C2">Normal</option><option value="C3">Secundária</option><option value="C4">Irregular</option><option value="D">Especial</option></select>
+            <div class="edit-options"><div class="edit"></div><div class="delete"></div></div><label for="ClassificaoTrfego">Classificação Tráfego</label><select id="ClassificaoTrfego" name="ClassificaoTrfego"><option value="L">Leve</option><option value="M">Moderado</option><option value="I">Intenso</option></select></div>
+            <div class="field2"><label for="ClassificaoVeculo">Classificação Veículo</label><select id="ClassificaoVeculo" name="ClassificaoVeculo"><option value="L">Leve</option><option value="M">Moderado</option><option value="I">Intenso</option></select></div>
+        </div>
+    </div>
+</form>
+</div>
+<div id="map" class="right-cell">
+Google Map
+fgea´g
+agra
+lrg
+aligng
+ael
+</div>
+</div>
+</body>
+</head>
+</html>
