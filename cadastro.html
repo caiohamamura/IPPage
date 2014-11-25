@@ -1,26 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://maps.googleapis.com/maps/api/js">
-</script>
-<script>
-function initialize()
-{
-var mapProp = {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-var map=new google.maps.Map(document.getElementById("map")
-  ,mapProp);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 <link rel="stylesheet" type="text/css" href="cadastro.css">
+<div id="head"></div>
+</head>
 <body>
-<div class="table">
-<div class="left-cell">
+<div class="left">
 <form id="form" class="form" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
     <h1>Cadastro Unidade de Iluminação (UI)</h1>
     <div class="content">
@@ -38,10 +23,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <div id="section2" class="section" >
             <div class="field1"><label for="CoordenadaX">Coordenada X</label><input type="number" id="CoordenadaX" name="CoordenadaX">
             <label for="CoordenadaY">Coordenada Y</label><input type="number" id="CoordenadaY" name="CoordenadaY">
-            <label for="UF">UF</label><select id="UF" name="UF"><option value="SP">SP</option><option value="AC">AC</option></select></div>
-            <div class="field2"><label for="Cidade">Cidade</label><select id="Cidade" name="Cidade"><option value="Cidade">Cidade</option><option value="Cidade1">Cidade1</option></select>
-            <label for="Logradouro">Logradouro</label><input type="text" id="Logradouro" name="Logradouro">
-            <label for="Complemento">Complemento</label><input type="text" id="Complemento" name="Complemento"></div>
+            <label for="UF">UF</label><select id="UF" name="UF"></select></div>
+            <div class="field2"><label for="Cidade">Cidade</label><select id="Cidade" name="Cidade"></select>
+            <label for="Logradouro">Logradouro</label><input type="text" id="Logradouro" name="Logradouro"/>
+            <label for="Complemento">Complemento</label><input type="text" id="Complemento" name="Complemento"/></div>
         </div>
         <h2 class="section">Substituição</h2>
         <div id="section3" class="section" >
@@ -58,15 +43,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </div>
 </form>
 </div>
-<div id="map" class="right-cell">
-Google Map
-fgea´g
-agra
-lrg
-aligng
-ael
+<div id="map" class="right">
 </div>
 </div>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="behavior/cadastro.js"></script>
 </body>
 </head>
 </html>
