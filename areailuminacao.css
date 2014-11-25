@@ -1,0 +1,39 @@
+#head
+{
+background-image: url(head.png);
+background-repeat: repeat-x;
+height:75px;
+width:100%;
+margin:none;
+vertical-align: middle;
+}
+
+
+h1{ 
+    color: #607A75; 
+    padding: 0px; 
+    margin: 0px; 
+    margin-bottom: 5px; 
+    font-size:18pt;
+    background-color: #FFFFFF; 
+} 
+} 
+.clear{ 
+    /* clear: both; */ 
+} 
+.section{
+}
+.field1{
+} 
+.field2{ 
+} 
+
+html {height:100%}
+body {height:100%;margin:0;padding:0}
+#map {height:85%}
+
+#legend {
+    background: white;
+    padding: 10px;
+    display: none;
+  }
